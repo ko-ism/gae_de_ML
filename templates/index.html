@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>ML Automation</title>
+  </head>
+
+  <body>
+
+<h1>ML Automation</h1>
+
+<div>
+    <form method="post" action="multi_ml">
+	    gs://ml-test-koizumi/<input type="text" name="source_file" size="100">
+    <p><input type="submit" value="送信する"></p>
+</form>
+</div>
+
+<h1>Prediction</h1>
+<a href={{ url_for('predict_index') }}>Predict Function</a><br>
+
+  </body>
+</html>
+

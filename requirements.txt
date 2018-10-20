@@ -1,0 +1,7 @@
+Flask==1.0.2
+google-cloud-storage== 1.7.0
+gunicorn==19.8.1
+WTForms-Appengine==0.1
+pandas==0.23.4
+scikit-learn==0.20.0
+numpy==1.15.2

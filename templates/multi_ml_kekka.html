@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>ML Automation</title>
+  </head>
+
+  <body>
+
+<h1>ML Automation</h1>
+<h5>message : {{ message }}</h5>
+<div>
+	<p><h3>LinearRegression</h3></p>
+	train_score:{{ lr_train_score }}<br>
+	test_score:{{ lr_test_score }}<br>
+	model_url:{{ lr_model_url }}<br>
+	<p><h3>RandomForestRegression</h3></p>
+	train_score:{{ rfr_train_score }}<br>
+	test_score:{{ rfr_test_score }}<br>
+	model_url:{{ rfr_model_url }}<br>
+	<p><h3>GradientBoostingRegression</h3></p>
+	train_score:{{ gbr_train_score }}<br>
+	test_score:{{ gbr_test_score }}<br>
+	model_url:{{ gbr_model_url }}<br>
+</div>
+
+  </body>
+</html>
